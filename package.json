@@ -1,0 +1,35 @@
+{
+  "name": "M5D10_BE_Netflix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -e js -r dotenv/config ./src/server.js",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ingrid-oncken/M5D10_BE_Netflix.git"
+  },
+  "keywords": [],
+  "author": "Ingrid Oncken",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ingrid-oncken/M5D10_BE_Netflix/issues"
+  },
+  "homepage": "https://github.com/ingrid-oncken/M5D10_BE_Netflix#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "fs-extra": "^10.0.0",
+    "http-error": "0.0.6",
+    "uniqid": "^5.4.0",
+    "use-immer": "^0.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "dotenv": "^10.0.0"
+  }
+}
